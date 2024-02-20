@@ -28,3 +28,16 @@ e: 65537 <br>
 now we can use online rsa decoder and public key n,e<br>
 
 FLAG: picoCTF{sma11_N_n0_g0od_73918962}<br>
+
+## Morse code
+
+<p>Description
+Morse code is well known. Can you decrypt this?
+Download the file here.
+Wrap your answer with picoCTF{}, put underscores in place of pauses, and use all lowercase.<br>
+lets download the file<br>
+wget https://artifacts.picoctf.net/c/79/morse_chal.wav<br>
+now by online morse code audio decoder we can get the secret flag<br>
+W H 4 7 H 4 7 H 9 0 D W 2 Š U 9 H 7<br>
+changing it into required format<br>
+picoCTF{WH47_H47H_90D_W20U9H7}<br>
