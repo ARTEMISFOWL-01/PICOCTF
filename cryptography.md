@@ -64,7 +64,8 @@ fl_ - _fl
 g_a - ag_
 and so on..<p>
 <p>So the code to decrypt the message will be <p>
-''' s = "heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_V091B0AE}2"
+''' 
+s = "heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_V091B0AE}2"
 txt = [s[i:i+3] for i in range(0, len(s), 3)]
 dec = []
 
@@ -74,7 +75,8 @@ rearranged = chunk[2] + chunk[0] + chunk[1]
         dec.append(rearranged)
 
 for element in dec:
-print(element, end='') '''
+print(element, end='')
+'''
 
 # OUTPUT
 
